@@ -1,0 +1,290 @@
+
+
+/* Header */
+header {
+    background-image: url(../images/amenities-bg.jpg);
+    background-size: cover;
+    height: 70%;
+    background-position-x: center; 
+}
+
+/* menu */
+header .container{
+    max-width: 1170px;
+}
+.navbar{
+    padding: 0;
+    padding-top: 25px;
+}
+.navbar .img-fluid{
+    max-width: 52%;
+}
+.navbar-nav{
+    padding-left: 117px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #fff;
+    padding-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    padding-left: 34px;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+}
+.navbar .btn{
+    border-radius: 99px;
+    padding: 5px 28px;
+    
+    color: #fff;
+    border-color: #fff;
+    font-size: 18px;
+    border-top: 1.2px solid ;
+    border-bottom: 1.2px solid ;
+}
+span{
+    padding-bottom: 3px;
+    border-bottom: 1px solid white;
+}
+.navbar-light .navbar-nav .d:hover{
+    color: #dedede;
+}
+.navbar-light .navbar-nav .m:hover{
+    color: #fff;
+}
+.navbar .btn:hover{
+    background: #fff;
+    color: #3898EC;
+    transform: scale(1.05);
+    border: none;
+}
+.btn:after{
+    position: absolute; 
+}
+.btn,
+.btn:visited{  
+    transition: all .2s;
+}
+
+/* title */
+.container .title{
+    color: #fff;
+    text-align: center;
+    padding: 14% 0;
+}
+.title .hero-title{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 66px;
+}
+.title .bb{
+    width: 88px;
+    height: 3px;
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    background: #f2c965;
+}
+.title .text{
+    font-size: 17px;
+}
+
+/* content */
+.content{
+    background: #f4f6f8;
+}
+.content .container{
+    max-width: 1180px;
+}
+.row .col-md-4{
+    text-align: center;
+}
+.row .n{
+    margin-top: 80px;
+}
+.row .m{
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+.card .img-box{
+    width: 60px;
+    margin-left: 145px;
+    margin-top: 30px;
+}
+.card .name-box{
+    padding: 15px 0;
+}
+.card .content-box{
+    padding-bottom: 25px;
+}
+.col-md-4 .card{
+    font-size: 18px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* layout */
+.layout .row{
+    height: 74vh;
+}
+/* left */
+.row .col-md-5{
+    background: #1b2f42;
+    color: #fff;
+    padding-left: 60px;
+    padding-top: 65px;
+}
+.col-md-5 .title-layout{
+    padding-left: 20px;
+}
+.col-md-5 .cc{
+    margin-left: 20px;
+}
+.col-md-5 .text{
+    font-size: 17px;
+}
+.col-md-5 .cc{
+    width: 85px;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    background: #f2c965;
+}
+.row .col-md-7{
+    background-image: url(../images/rooms-include.jpg);
+    background-position-x: center;
+    background-size: cover;
+    max-width: 57.1%;
+    
+}
+/* section */
+.section{
+    background: #f4f6f8;
+}
+.section .container{
+    max-width: 1200px;
+    
+}
+.container .main-h2{
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    color: #154472;
+    
+    padding-top: 90px;
+}
+.container .dd{
+    width: 88px;
+    height: 3px;
+    margin-left: 46%;
+    margin-top: 20px;
+    margin-bottom: 5%; 
+    background: #f2c965;
+}
+.col-md-6 .section-text{
+    text-align: center;
+    background-position-x: center;
+    background-size: cover;
+    height: 45vh;
+    margin-top: 30px;
+    color: #fff;
+}
+.col-md-6 .a{
+    background-image: linear-gradient(rgba(236, 236, 236, 0.1) ,rgba(31, 34, 34, 0.5)),url(../images/sailing.jpg);
+}
+.col-md-6 .b{
+    background-image: linear-gradient(rgba(236, 236, 236, 0.1) ,rgba(31, 34, 34, 0.5)), url(../images/snorkling.jpg);
+}
+.col-md-6 .c{
+    background-image: linear-gradient(rgba(236, 236, 236, 0.1) ,rgba(31, 34, 34, 0.5)), url(../images/stingray.jpg);
+    margin-bottom: 50px;
+}
+.col-md-6 .d{
+    background-image: linear-gradient(rgba(236, 236, 236, 0.1) ,rgba(31, 34, 34, 0.5)), url(../images/surfing.jpg);
+    margin-bottom: 50px;
+}
+.main-text{
+    padding: 20% 40px;
+}
+.main-text .text-o{
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+/* footer */
+.footer-top .container{
+    max-width: 1200px;
+}
+.footer-top .row{
+    margin: 65px 0;
+}
+.c1 .img-footer{
+    display: inline;
+}
+.img-footer .img-c1{
+    width: 25px;
+}
+.c1 .text-c1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.text-c2>a{
+    color: black;
+}
+.c2 .text-c2{
+    text-decoration: none;
+    padding-top: 10px;
+}
+.c3 .blog{
+    width: 17%;
+    height: 40px;
+    display: block;
+    margin-bottom: 20px;
+}
+.on>a{
+    color: black;
+    text-decoration: none;
+}
+.on .list-item{
+    display: flex;
+}
+.list-item span{
+    text-decoration: none;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+.contact .us{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.us span{
+    margin-left: 15px;
+    font-size: 17px;
+}
+.c3 h4{
+
+    text-align: left;
+    padding-bottom: 15px;
+}
+.c4 .text-icon{
+    padding-left: 33px;
+    padding-top: 5px;
+}
+.c4 .contact{
+    padding-top: 15px;
+}
+.row h4{
+    color: #154472;
+}
+.footer-bottom{
+    text-align: center;
+    padding: 25px 0;
+    background: #f4f6f8;
+}
+.footer-bottom a{
+    color: #154472;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1.2px solid #154472;
+}
